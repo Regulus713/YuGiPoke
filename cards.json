@@ -1,0 +1,628 @@
+{
+  "cards": [
+    {
+      "id": "charmander",
+      "name": "Charmander",
+      "kind": "monster",
+      "atk": 1100,
+      "defense": 900,
+      "level": 1,
+      "type": "fire",
+      "img": "img/charmander.png",
+      "effect": {
+        "trigger": "on_summon",
+        "type": "burn",
+        "value": 400
+      },
+      "text": "On summon: deal 400 damage to your opponent."
+    },
+    {
+      "id": "charmeleon",
+      "name": "Charmeleon",
+      "kind": "monster",
+      "atk": 1450,
+      "defense": 1150,
+      "level": 3,
+      "type": "fire",
+      "img": "img/charmeleon.png",
+      "effect": {
+        "trigger": "on_summon",
+        "type": "burn",
+        "value": 400
+      },
+      "text": "On summon: deal 400 damage to your opponent."
+    },
+    {
+      "id": "charizard",
+      "name": "Charizard",
+      "kind": "monster",
+      "atk": 1950,
+      "defense": 1550,
+      "level": 6,
+      "type": "fire",
+      "img": "img/charizard.png",
+      "effect": {
+        "trigger": "on_summon",
+        "type": "burn",
+        "value": 400
+      },
+      "text": "On summon: deal 400 damage to your opponent."
+    },
+    {
+      "id": "vulpix",
+      "name": "Vulpix",
+      "kind": "monster",
+      "atk": 900,
+      "defense": 1150,
+      "level": 1,
+      "type": "fire",
+      "img": "img/vulpix.png",
+      "effect": {
+        "trigger": "on_summon",
+        "type": "burn",
+        "value": 400
+      },
+      "text": "On summon: deal 400 damage to your opponent."
+    },
+    {
+      "id": "ponyta",
+      "name": "Ponyta",
+      "kind": "monster",
+      "atk": 1550,
+      "defense": 1150,
+      "level": 3,
+      "type": "fire",
+      "img": "img/ponyta.png",
+      "effect": {
+        "trigger": "on_summon",
+        "type": "burn",
+        "value": 400
+      },
+      "text": "On summon: deal 400 damage to your opponent."
+    },
+    {
+      "id": "flareon",
+      "name": "Flareon",
+      "kind": "monster",
+      "atk": 2350,
+      "defense": 2000,
+      "level": 5,
+      "type": "fire",
+      "img": "img/flareon.png",
+      "effect": {
+        "trigger": "on_summon",
+        "type": "burn",
+        "value": 400
+      },
+      "text": "On summon: deal 400 damage to your opponent."
+    },
+    {
+      "id": "magmar",
+      "name": "Magmar",
+      "kind": "monster",
+      "atk": 1800,
+      "defense": 1550,
+      "level": 5,
+      "type": "fire",
+      "img": "img/magmar.png",
+      "effect": {
+        "trigger": "on_summon",
+        "type": "burn",
+        "value": 400
+      },
+      "text": "On summon: deal 400 damage to your opponent."
+    },
+    {
+      "id": "moltres",
+      "name": "Moltres",
+      "kind": "monster",
+      "atk": 2250,
+      "defense": 1600,
+      "level": 7,
+      "type": "fire",
+      "img": "img/moltres.png",
+      "effect": {
+        "trigger": "passive",
+        "type": "aura_atk",
+        "value": 250
+      },
+      "text": "Legendary presence: your other monsters gain 250 ATK."
+    },
+    {
+      "id": "pikachu",
+      "name": "Pikachu",
+      "kind": "monster",
+      "atk": 1000,
+      "defense": 900,
+      "level": 1,
+      "type": "electric",
+      "img": "img/pikachu.png",
+      "effect": {
+        "trigger": "on_summon",
+        "type": "burn",
+        "value": 300
+      },
+      "text": "On summon: deal 300 damage to your opponent."
+    },
+    {
+      "id": "raichu",
+      "name": "Raichu",
+      "kind": "monster",
+      "atk": 1600,
+      "defense": 1450,
+      "level": 5,
+      "type": "electric",
+      "img": "img/raichu.png",
+      "effect": {
+        "trigger": "on_summon",
+        "type": "burn",
+        "value": 300
+      },
+      "text": "On summon: deal 300 damage to your opponent."
+    },
+    {
+      "id": "electabuzz",
+      "name": "Electabuzz",
+      "kind": "monster",
+      "atk": 1700,
+      "defense": 1550,
+      "level": 5,
+      "type": "electric",
+      "img": "img/electabuzz.png",
+      "effect": {
+        "trigger": "on_summon",
+        "type": "burn",
+        "value": 300
+      },
+      "text": "On summon: deal 300 damage to your opponent."
+    },
+    {
+      "id": "jolteon",
+      "name": "Jolteon",
+      "kind": "monster",
+      "atk": 2000,
+      "defense": 1700,
+      "level": 5,
+      "type": "electric",
+      "img": "img/jolteon.png",
+      "effect": {
+        "trigger": "on_summon",
+        "type": "burn",
+        "value": 300
+      },
+      "text": "On summon: deal 300 damage to your opponent."
+    },
+    {
+      "id": "zapdos",
+      "name": "Zapdos",
+      "kind": "monster",
+      "atk": 2250,
+      "defense": 1600,
+      "level": 7,
+      "type": "electric",
+      "img": "img/zapdos.png",
+      "effect": {
+        "trigger": "passive",
+        "type": "aura_atk",
+        "value": 250
+      },
+      "text": "Legendary presence: your other monsters gain 250 ATK."
+    },
+    {
+      "id": "hitmonlee",
+      "name": "Hitmonlee",
+      "kind": "monster",
+      "atk": 2150,
+      "defense": 2000,
+      "level": 4,
+      "type": "fighting",
+      "img": "img/hitmonlee.png",
+      "effect": {
+        "trigger": "passive",
+        "type": "piercing"
+      },
+      "text": "Piercing: deals excess damage when destroying a defense-position monster."
+    },
+    {
+      "id": "squirtle",
+      "name": "Squirtle",
+      "kind": "monster",
+      "atk": 900,
+      "defense": 1150,
+      "level": 1,
+      "type": "water",
+      "img": "img/squirtle.png",
+      "effect": {
+        "trigger": "on_summon",
+        "type": "heal",
+        "value": 500
+      },
+      "text": "On summon: gain 500 LP."
+    },
+    {
+      "id": "wartortle",
+      "name": "Wartortle",
+      "kind": "monster",
+      "atk": 1150,
+      "defense": 1450,
+      "level": 3,
+      "type": "water",
+      "img": "img/wartortle.png",
+      "effect": {
+        "trigger": "on_summon",
+        "type": "heal",
+        "value": 500
+      },
+      "text": "On summon: gain 500 LP."
+    },
+    {
+      "id": "blastoise",
+      "name": "Blastoise",
+      "kind": "monster",
+      "atk": 1550,
+      "defense": 1900,
+      "level": 6,
+      "type": "water",
+      "img": "img/blastoise.png",
+      "effect": {
+        "trigger": "on_summon",
+        "type": "heal",
+        "value": 500
+      },
+      "text": "On summon: gain 500 LP."
+    },
+    {
+      "id": "vaporeon",
+      "name": "Vaporeon",
+      "kind": "monster",
+      "atk": 2000,
+      "defense": 1700,
+      "level": 5,
+      "type": "water",
+      "img": "img/vaporeon.png",
+      "effect": {
+        "trigger": "on_summon",
+        "type": "heal",
+        "value": 500
+      },
+      "text": "On summon: gain 500 LP."
+    },
+    {
+      "id": "lapras",
+      "name": "Lapras",
+      "kind": "monster",
+      "atk": 1550,
+      "defense": 1700,
+      "level": 6,
+      "type": "water",
+      "img": "img/lapras.png",
+      "effect": {
+        "trigger": "on_summon",
+        "type": "heal",
+        "value": 500
+      },
+      "text": "On summon: gain 500 LP."
+    },
+    {
+      "id": "gyarados",
+      "name": "Gyarados",
+      "kind": "monster",
+      "atk": 2250,
+      "defense": 1800,
+      "level": 6,
+      "type": "water",
+      "img": "img/gyarados.png",
+      "effect": {
+        "trigger": "on_summon",
+        "type": "heal",
+        "value": 500
+      },
+      "text": "On summon: gain 500 LP."
+    },
+    {
+      "id": "bulbasaur",
+      "name": "Bulbasaur",
+      "kind": "monster",
+      "atk": 1150,
+      "defense": 1150,
+      "level": 1,
+      "type": "grass",
+      "img": "img/bulbasaur.png",
+      "effect": {
+        "trigger": "on_summon",
+        "type": "heal",
+        "value": 400
+      },
+      "text": "On summon: gain 400 LP."
+    },
+    {
+      "id": "venusaur",
+      "name": "Venusaur",
+      "kind": "monster",
+      "atk": 1800,
+      "defense": 1800,
+      "level": 5,
+      "type": "grass",
+      "img": "img/venusaur.png",
+      "effect": {
+        "trigger": "on_summon",
+        "type": "heal",
+        "value": 400
+      },
+      "text": "On summon: gain 400 LP."
+    },
+    {
+      "id": "exeggutor",
+      "name": "Exeggutor",
+      "kind": "monster",
+      "atk": 2250,
+      "defense": 1550,
+      "level": 6,
+      "type": "grass",
+      "img": "img/exeggutor.png",
+      "effect": {
+        "trigger": "on_summon",
+        "type": "heal",
+        "value": 400
+      },
+      "text": "On summon: gain 400 LP."
+    },
+    {
+      "id": "abra",
+      "name": "Abra",
+      "kind": "monster",
+      "atk": 1900,
+      "defense": 1000,
+      "level": 1,
+      "type": "psychic",
+      "img": "img/abra.png",
+      "effect": {
+        "trigger": "on_summon",
+        "type": "draw",
+        "value": 1
+      },
+      "text": "On summon: draw 1 card(s)."
+    },
+    {
+      "id": "alakazam",
+      "name": "Alakazam",
+      "kind": "monster",
+      "atk": 2450,
+      "defense": 1700,
+      "level": 5,
+      "type": "psychic",
+      "img": "img/alakazam.png",
+      "effect": {
+        "trigger": "on_summon",
+        "type": "draw",
+        "value": 1
+      },
+      "text": "On summon: draw 1 card(s)."
+    },
+    {
+      "id": "snorlax",
+      "name": "Snorlax",
+      "kind": "monster",
+      "atk": 2000,
+      "defense": 2000,
+      "level": 6,
+      "type": "normal",
+      "img": "img/snorlax.png",
+      "effect": null,
+      "text": ""
+    },
+    {
+      "id": "onix",
+      "name": "Onix",
+      "kind": "monster",
+      "atk": 800,
+      "defense": 2900,
+      "level": 2,
+      "type": "rock",
+      "img": "img/onix.png",
+      "effect": null,
+      "text": ""
+    },
+    {
+      "id": "dragonite",
+      "name": "Dragonite",
+      "kind": "monster",
+      "atk": 2400,
+      "defense": 1800,
+      "level": 7,
+      "type": "dragon",
+      "img": "img/dragonite.png",
+      "effect": {
+        "trigger": "passive",
+        "type": "aura_atk",
+        "value": 250
+      },
+      "text": "Legendary presence: your other monsters gain 250 ATK."
+    },
+    {
+      "id": "potion",
+      "name": "Potion",
+      "kind": "spell",
+      "type": "normal",
+      "sprite": "items/potion.png",
+      "effect": {
+        "type": "heal",
+        "value": 800
+      },
+      "text": "Gain 800 LP.",
+      "img": "img/potion.png"
+    },
+    {
+      "id": "full_restore",
+      "name": "Full Restore",
+      "kind": "spell",
+      "type": "normal",
+      "sprite": "items/full-restore.png",
+      "effect": {
+        "type": "heal",
+        "value": 1500
+      },
+      "text": "Gain 1500 LP.",
+      "img": "img/full_restore.png"
+    },
+    {
+      "id": "rare_candy",
+      "name": "Rare Candy",
+      "kind": "spell",
+      "type": "normal",
+      "sprite": "items/rare-candy.png",
+      "effect": {
+        "type": "draw",
+        "value": 2
+      },
+      "text": "Draw 2 cards.",
+      "img": "img/rare_candy.png"
+    },
+    {
+      "id": "poke_ball",
+      "name": "Poke Ball",
+      "kind": "spell",
+      "type": "normal",
+      "sprite": "items/poke-ball.png",
+      "effect": {
+        "type": "draw",
+        "value": 1
+      },
+      "text": "Draw 1 card.",
+      "img": "img/poke_ball.png"
+    },
+    {
+      "id": "x_attack",
+      "name": "X Attack",
+      "kind": "spell",
+      "type": "fighting",
+      "sprite": "items/x-attack.png",
+      "effect": {
+        "type": "buff",
+        "value": 600
+      },
+      "text": "Equip: a monster you control gains 600 ATK while equipped.",
+      "img": "img/x_attack.png"
+    },
+    {
+      "id": "thunderbolt_tm",
+      "name": "TM24 Thunderbolt",
+      "kind": "spell",
+      "type": "electric",
+      "sprite": "items/tm-electric.png",
+      "effect": {
+        "type": "burn",
+        "value": 800
+      },
+      "text": "Deal 800 damage to your opponent.",
+      "img": "img/thunderbolt_tm.png"
+    },
+    {
+      "id": "flamethrower_tm",
+      "name": "TM35 Flamethrower",
+      "kind": "spell",
+      "type": "fire",
+      "sprite": "items/tm-fire.png",
+      "effect": {
+        "type": "burn",
+        "value": 600
+      },
+      "text": "Deal 600 damage to your opponent.",
+      "img": "img/flamethrower_tm.png"
+    },
+    {
+      "id": "hyper_beam_tm",
+      "name": "TM15 Hyper Beam",
+      "kind": "spell",
+      "type": "normal",
+      "sprite": "items/tm-normal.png",
+      "effect": {
+        "type": "destroy"
+      },
+      "text": "Destroy your opponent's weakest monster.",
+      "img": "img/hyper_beam_tm.png"
+    },
+    {
+      "id": "protect_tm",
+      "name": "TM17 Protect",
+      "kind": "trap",
+      "type": "normal",
+      "sprite": "items/tm-normal.png",
+      "effect": {
+        "type": "negate"
+      },
+      "text": "Trap: negates an attack.",
+      "img": "img/protect_tm.png"
+    },
+    {
+      "id": "self_destruct_tm",
+      "name": "TM36 Self-Destruct",
+      "kind": "trap",
+      "type": "normal",
+      "sprite": "items/tm-normal.png",
+      "effect": {
+        "type": "destroy_atk"
+      },
+      "text": "Trap: destroys the attacking monster.",
+      "img": "img/self_destruct_tm.png"
+    },
+    {
+      "id": "counter_tm",
+      "name": "TM18 Counter",
+      "kind": "trap",
+      "type": "fighting",
+      "sprite": "items/tm-fighting.png",
+      "effect": {
+        "type": "counter"
+      },
+      "text": "Trap: negates an attack and deals damage equal to half the attacker's ATK.",
+      "img": "img/counter_tm.png"
+    }
+  ],
+  "decks": {
+    "flare": [
+      "charmander",
+      "charmeleon",
+      "charizard",
+      "vulpix",
+      "ponyta",
+      "flareon",
+      "magmar",
+      "moltres",
+      "pikachu",
+      "raichu",
+      "electabuzz",
+      "jolteon",
+      "zapdos",
+      "hitmonlee",
+      "thunderbolt_tm",
+      "flamethrower_tm",
+      "x_attack",
+      "poke_ball",
+      "protect_tm",
+      "self_destruct_tm"
+    ],
+    "tide": [
+      "squirtle",
+      "wartortle",
+      "blastoise",
+      "vaporeon",
+      "lapras",
+      "gyarados",
+      "bulbasaur",
+      "venusaur",
+      "exeggutor",
+      "abra",
+      "alakazam",
+      "snorlax",
+      "onix",
+      "dragonite",
+      "potion",
+      "full_restore",
+      "rare_candy",
+      "hyper_beam_tm",
+      "protect_tm",
+      "counter_tm"
+    ]
+  }
+}

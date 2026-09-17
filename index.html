@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Duel — card game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="game">
+    <main id="board">
+      <div id="opp-bar" class="bar"></div>
+      <div id="opp-traps" class="trap-row"></div>
+      <div id="opp-field" class="field-row"></div>
+      <div id="mid-bar" class="bar"></div>
+      <div id="my-field" class="field-row"></div>
+      <div id="my-traps" class="trap-row"></div>
+      <div id="me-bar" class="bar"></div>
+      <div id="hand"></div>
+    </main>
+    <aside id="side">
+      <div id="side-head">
+        <div id="turn-ind"></div>
+        <button id="snd" class="btn concede">Sound: on</button>
+      </div>
+      <div id="notice"></div>
+      <div id="turn-controls"></div>
+      <div id="log"></div>
+    </aside>
+  </div>
+  <div id="popup"></div>
+  <div id="cardtip"></div>
+  <div id="overlay"></div>
+  <div id="toast"></div>
+  <div id="fx"></div>
+  <script type="module" src="ui.js"></script>
+</body>
+</html>
