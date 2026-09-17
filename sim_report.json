@@ -1,0 +1,21 @@
+{
+  "games": 2000,
+  "date": "2026-09-17",
+  "decks": {
+    "flare": {
+      "win_rate": 0.7446524064171123,
+      "wins": 1114,
+      "played": 1496
+    },
+    "tide": {
+      "win_rate": 0.6027210884353742,
+      "wins": 886,
+      "played": 1470
+    }
+  },
+  "draws": 0,
+  "draw_pct": 0.0,
+  "first_player": 0.5205,
+  "avg_turns": 4.4515,
+  "avg_winner_lp": 3538.825
+}
