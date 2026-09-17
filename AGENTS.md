@@ -42,9 +42,11 @@ Mode: vs AI only (CPU takes a random deck).
   (×18, rounded to 50), best defensive stat → DEF, BST → level; primary type → effect
   (fire/electric=burn, water/grass/fairy=heal, psychic=draw, fighting/dragon=piercing,
   BST≥580=aura_atk).
-- `simulate.py` — `python simulate.py [--games N] [--seed S] [--cap T]` runs headless
-  AI-vs-AI games and reports deck win rates, matchup stats, game length, and card
-  usage. Use it to balance decks (baseline: flare ~77% vs tide ~55%, avg 4.4 turns).
+- `simulate.py` — `python simulate.py [--games N] [--seed S] [--cap T] [--json out.json]`
+  runs headless AI-vs-AI games and reports deck win rates, matchup stats, game
+  length, and card usage. `--json sim_report.json` also feeds the browser's
+  "SIM ✓" badge in the mid-bar (click it for the stats panel). Use it to balance
+  decks (baseline: flare ~75% vs tide ~60%, avg 4.4 turns).
 - `img/` — downloaded Pokémon sprites referenced by `card.img`.
 - `cards.py` — `CardDef`, `Monster`, `Player` models and JSON loading.
 - `engine.py` — duel state, turn flow, combat resolution, effect triggers (terminal).

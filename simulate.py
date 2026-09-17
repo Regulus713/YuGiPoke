@@ -8,6 +8,8 @@ length, and card-usage frequencies. Pure engine — no UI, no delays.
 """
 
 import argparse
+import datetime
+import json
 import os
 import random
 import re
@@ -90,6 +92,8 @@ def main() -> None:
     ap.add_argument("--games", type=int, default=2000)
     ap.add_argument("--seed", type=int, default=None)
     ap.add_argument("--cap", type=int, default=200)
+    ap.add_argument("--json", type=str, default=None,
+                    help="write results to this JSON file (shown by the browser UI)")
     args = ap.parse_args()
 
     if args.seed is not None:
@@ -140,6 +144,24 @@ def main() -> None:
     top("summon", "Most summoned monsters")
     top("spell", "Spells played")
     top("trap_act", "Trap activations")
+
+    if args.json:
+        report = {
+            "games": args.games,
+            "date": datetime.date.today().isoformat(),
+            "decks": {d: {"win_rate": wins[d] / max(played[d], 1),
+                          "wins": wins[d], "played": played[d]}
+                      for d in decks},
+            "draws": draws,
+            "draw_pct": draws / args.games,
+            "first_player": first_wins / max(decided, 1),
+            "avg_turns": statistics.mean(turns),
+            "avg_winner_lp": statistics.mean(final_lps) if final_lps else 0,
+        }
+        with open(args.json, "w", encoding="utf-8") as f:
+            json.dump(report, f, indent=2)
+            f.write("\n")
+        out(f"\nwrote {args.json}")
 
 
 if __name__ == "__main__":
